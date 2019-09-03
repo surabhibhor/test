@@ -1,0 +1,65 @@
+    form{
+            width: 100%;
+            height:100%;
+            background-image:url('images3.jpeg'); 
+            background-repeat: no-repeat;
+                background-size: cover; 
+         }
+
+            input[type="text"],
+            input[type="password"],
+            input[type="file"]
+         {
+            width:22%;
+            border-bottom:1px solid white;
+            margin-left: 20%;
+         }
+
+         textarea
+         {
+             border-bottom:1px solid white;
+            margin-left: 20%;
+         }
+
+         input[type="submit"]
+         {
+            width:22%;
+            height: 45px;
+            background-color: lime;
+            margin-left:20%;
+            margin-top: 2%;
+         }
+
+         label
+         {
+            padding-left: 30%;
+            color:white;
+            font-size: 18px;
+
+         }
+
+         .fill
+         {
+            float: right;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 100px;
+            text-align: center;
+            padding-right: 40px;
+            margin:50px;
+         }
+
+         a
+          {
+            text-decoration:none;
+            color:white;
+            font-size: 20px; 
+            padding:2%;
+         }
+          h3
+         {
+            color:white;
+            font-size: 18px;
+            text-align: center;
+            font-size: 25px;
+         }
